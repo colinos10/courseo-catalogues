@@ -1,1 +1,40 @@
-[]
+[
+    {
+        "id": "demo_1",
+        "storeId": "1",
+        "title": "Catalogue Promo Carrefour",
+        "validUntil": "Valable jusqu'au 31 Décembre",
+        "pdfUrl": "https://www.carrefour.fr",
+        "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600",
+        "products": [
+            {
+                "id": "p_demo_1_1",
+                "name": "Panier Fruits & Légumes de Saison",
+                "imageUrl": "https://images.unsplash.com/photo-1610832958506-ee5633619141?auto=format&fit=crop&q=80&w=400",
+                "originalPrice": 12.5,
+                "promoPrice": 7.99,
+                "description": "Sélection fraîcheur directement du producteur",
+                "category": "Alimentation"
+            }
+        ]
+    },
+    {
+        "id": "demo_2",
+        "storeId": "2",
+        "title": "Les Jours Heureux Lidl",
+        "validUntil": "Valable cette semaine",
+        "pdfUrl": "https://www.lidl.fr",
+        "imageUrl": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=600",
+        "products": [
+            {
+                "id": "p_demo_2_1",
+                "name": "Chocolat Noir Bio Equitable",
+                "imageUrl": "https://images.unsplash.com/photo-1606312440539-c51c13d3c7a2?auto=format&fit=crop&q=80&w=400",
+                "originalPrice": 2.99,
+                "promoPrice": 1.49,
+                "description": "Tablette 100g premium",
+                "category": "Alimentation"
+            }
+        ]
+    }
+]
