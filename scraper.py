@@ -8,11 +8,11 @@ def generer_donnees_secours():
     print("⚠️ Utilisation des données de secours (Fallback) pour l'application...")
     return [
         {
-            "id": "demo_1",
-            "storeId": "1",
+            "id": "demo_carrefour",
+            "storeId": "carrefour",
             "title": "Catalogue Promo Carrefour",
-            "validUntil": "Valable jusqu'au 31 Décembre",
-            "pdfUrl": "https://www.carrefour.fr",
+            "validUntil": "Valable cette semaine",
+            "pdfUrl": "https://www.carrefour.fr/catalogues",
             "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600",
             "products": [
                 {
@@ -27,11 +27,11 @@ def generer_donnees_secours():
             ]
         },
         {
-            "id": "demo_2",
-            "storeId": "2",
+            "id": "demo_lidl",
+            "storeId": "lidl",
             "title": "Les Jours Heureux Lidl",
             "validUntil": "Valable cette semaine",
-            "pdfUrl": "https://www.lidl.fr",
+            "pdfUrl": "https://www.lidl.fr/c/catalogues-et-offres/s10022712",
             "imageUrl": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=600",
             "products": [
                 {
@@ -46,6 +46,25 @@ def generer_donnees_secours():
             ]
         }
     ]
+
+def normaliser_store_id(nom_enseigne):
+    """Associe le nom de l'enseigne scrapée à l'ID utilisé dans l'application."""
+    nom_lower = nom_enseigne.lower()
+    if "carrefour" in nom_lower:
+        return "carrefour"
+    elif "lidl" in nom_lower:
+        return "lidl"
+    elif "auchan" in nom_lower:
+        return "auchan"
+    elif "monoprix" in nom_lower:
+        return "monoprix"
+    elif "leclerc" in nom_lower:
+        return "leclerc"
+    elif "aldi" in nom_lower:
+        return "aldi"
+    elif "super u" in nom_lower or "système u" in nom_lower or "magasins u" in nom_lower:
+        return "superu"
+    return "supermarket" # ID par défaut si inconnu
 
 def recuperer_catalogues_bonial():
     url = "https://www.bonial.fr/shelf?lat=48.8558&lng=2.3494&zip=75003&city=Paris"
@@ -64,27 +83,27 @@ def recuperer_catalogues_bonial():
 
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # 1. Tentative d'extraction moderne via le JSON NextJS (extrêmement puissant)
+        # 1. Extraction moderne via le JSON NextJS (très stable sur Bonial)
         next_data_script = soup.find('script', id='__NEXT_DATA__')
         if next_data_script:
             try:
                 print("Détection d'une structure Next.js, extraction du JSON brut...")
                 payload = json.loads(next_data_script.string)
-                # Exploration du dictionnaire pour trouver les brochures
                 page_props = payload.get("props", {}).get("pageProps", {})
-                
-                # Liste générique pour chercher les données des brochures
                 brochures_data = page_props.get("brochures") or page_props.get("shelf", {}).get("brochures")
                 
                 if brochures_data:
                     catalogues = []
-                    for index, b in enumerate(brochures_data[:12]):
+                    for index, b in enumerate(brochures_data[:15]):
+                        nom_enseigne = b.get('publisherName', 'Enseigne')
+                        store_id = normaliser_store_id(nom_enseigne)
+                        
                         catalogues.append({
                             "id": f"scraped_{b.get('id', index)}",
-                            "storeId": str((index % 3) + 1),
-                            "title": f"Catalogue {b.get('publisherName', 'Enseigne')}",
+                            "storeId": store_id,
+                            "title": f"Catalogue {nom_enseigne}",
                             "validUntil": "Valable cette semaine",
-                            "pdfUrl": b.get("publishedUrl") or f"https://www.bonial.fr/catalogue/{b.get('id')}",
+                            "pdfUrl": b.get("publishedUrl") or f"https://www.bonial.fr/brochures/{b.get('id')}",
                             "imageUrl": b.get("titleImage", {}).get("url") or "",
                             "products": [
                                 {
@@ -111,10 +130,12 @@ def recuperer_catalogues_bonial():
             return generer_donnees_secours()
 
         catalogues = []
-        for index, card in enumerate(brochures[:12]):
+        for index, card in enumerate(brochures[:15]):
             try:
                 img_tag = card.find('img')
                 enseigne = img_tag.get('alt', 'Catalogue').replace('Catalogue ', '').strip() if img_tag else "Catalogue"
+                store_id = normaliser_store_id(enseigne)
+                
                 image_url = img_tag.get('src') if img_tag else ""
                 if image_url and image_url.startswith('//'):
                     image_url = 'https:' + image_url
@@ -127,7 +148,7 @@ def recuperer_catalogues_bonial():
 
                 catalogues.append({
                     "id": f"scraped_{index}",
-                    "storeId": str((index % 3) + 1),
+                    "storeId": store_id,
                     "title": f"Catalogue {enseigne}",
                     "validUntil": "Valable cette semaine",
                     "pdfUrl": lien_complet,
