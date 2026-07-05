@@ -1,40 +1,101 @@
 [
-    {
-        "id": "demo_carrefour",
-        "storeId": "carrefour",
-        "title": "Catalogue Promo Carrefour",
-        "validUntil": "Valable cette semaine",
-        "pdfUrl": "https://www.carrefour.fr/catalogues",
-        "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600",
-        "products": [
-            {
-                "id": "p_demo_1_1",
-                "name": "Panier Fruits & Légumes de Saison",
-                "imageUrl": "https://images.unsplash.com/photo-1610832958506-ee5633619141?auto=format&fit=crop&q=80&w=400",
-                "originalPrice": 12.5,
-                "promoPrice": 7.99,
-                "description": "Sélection fraîcheur directement du producteur",
-                "category": "Alimentation"
-            }
-        ]
-    },
-    {
-        "id": "demo_lidl",
-        "storeId": "lidl",
-        "title": "Les Jours Heureux Lidl",
-        "validUntil": "Valable cette semaine",
-        "pdfUrl": "https://www.lidl.fr/c/catalogues-et-offres/s10022712",
-        "imageUrl": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=600",
-        "products": [
-            {
-                "id": "p_demo_2_1",
-                "name": "Chocolat Noir Bio Equitable",
-                "imageUrl": "https://images.unsplash.com/photo-1606312440539-c51c13d3c7a2?auto=format&fit=crop&q=80&w=400",
-                "originalPrice": 2.99,
-                "promoPrice": 1.49,
-                "description": "Tablette 100g premium",
-                "category": "Alimentation"
-            }
-        ]
-    }
+  {
+    "id": "aldi_promo",
+    "storeId": "aldi",
+    "title": "Catalogue Aldi",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/aldi",
+    "imageName": "aldi",
+    "products": []
+  },
+  {
+    "id": "auchan_promo",
+    "storeId": "auchan",
+    "title": "Catalogue Auchan",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/auchan-hypermarche",
+    "imageName": "auchan",
+    "products": []
+  },
+  {
+    "id": "biocoop_promo",
+    "storeId": "biocoop",
+    "title": "Catalogue Biocoop",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/biocoop",
+    "imageName": "biocoop",
+    "products": []
+  },
+  {
+    "id": "carrefour_promo",
+    "storeId": "carrefour",
+    "title": "Catalogue Carrefour",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/carrefour",
+    "imageName": "carrefour",
+    "products": []
+  },
+  {
+    "id": "e_leclerc_promo",
+    "storeId": "e_leclerc",
+    "title": "Catalogue E.Leclerc",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/e-leclerc",
+    "imageName": "e_leclerc",
+    "products": []
+  },
+  {
+    "id": "franprix_promo",
+    "storeId": "franprix",
+    "title": "Catalogue Franprix",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/franprix",
+    "imageName": "franprix",
+    "products": []
+  },
+  {
+    "id": "grand_frais_promo",
+    "storeId": "grand_frais",
+    "title": "Catalogue Grand Frais",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/grand-frais",
+    "imageName": "grand_frais",
+    "products": []
+  },
+  {
+    "id": "intermarche_promo",
+    "storeId": "intermarche",
+    "title": "Catalogue Intermarché",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/intermarche-super",
+    "imageName": "intermarche",
+    "products": []
+  },
+  {
+    "id": "lidl_promo",
+    "storeId": "lidl",
+    "title": "Catalogue Lidl",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/lidl",
+    "imageName": "lidl",
+    "products": []
+  },
+  {
+    "id": "monoprix_promo",
+    "storeId": "monoprix",
+    "title": "Catalogue Monoprix",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/monoprix",
+    "imageName": "monoprix",
+    "products": []
+  },
+  {
+    "id": "superu_promo",
+    "storeId": "superu",
+    "title": "Catalogue Super U",
+    "validUntil": "Mise à jour automatique",
+    "pdfUrl": "https://promoaccro.fr/magasins/super-u",
+    "imageName": "superu",
+    "products": []
+  }
 ]
