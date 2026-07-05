@@ -1,10 +1,10 @@
 [
     {
-        "id": "demo_1",
-        "storeId": "1",
+        "id": "demo_carrefour",
+        "storeId": "carrefour",
         "title": "Catalogue Promo Carrefour",
-        "validUntil": "Valable jusqu'au 31 Décembre",
-        "pdfUrl": "https://www.carrefour.fr",
+        "validUntil": "Valable cette semaine",
+        "pdfUrl": "https://www.carrefour.fr/catalogues",
         "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600",
         "products": [
             {
@@ -19,11 +19,11 @@
         ]
     },
     {
-        "id": "demo_2",
-        "storeId": "2",
+        "id": "demo_lidl",
+        "storeId": "lidl",
         "title": "Les Jours Heureux Lidl",
         "validUntil": "Valable cette semaine",
-        "pdfUrl": "https://www.lidl.fr",
+        "pdfUrl": "https://www.lidl.fr/c/catalogues-et-offres/s10022712",
         "imageUrl": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=600",
         "products": [
             {
