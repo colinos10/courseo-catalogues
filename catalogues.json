@@ -1,40 +1,422 @@
-[
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T00:49:08.566Z",
+  "locationLabel": "Paris 75003",
+  "catalogues": [
     {
-        "id": "demo_carrefour",
-        "storeId": "carrefour",
-        "title": "Catalogue Promo Carrefour",
-        "validUntil": "Valable cette semaine",
-        "pdfUrl": "https://www.carrefour.fr/catalogues",
-        "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600",
-        "products": [
-            {
-                "id": "p_demo_1_1",
-                "name": "Panier Fruits & Légumes de Saison",
-                "imageUrl": "https://images.unsplash.com/photo-1610832958506-ee5633619141?auto=format&fit=crop&q=80&w=400",
-                "originalPrice": 12.5,
-                "promoPrice": 7.99,
-                "description": "Sélection fraîcheur directement du producteur",
-                "category": "Alimentation"
-            }
-        ]
+      "id": "34e9d40ad1be6fc300139b01c560221e",
+      "storeId": "carrefour",
+      "title": "Carrefour",
+      "url": "https://www.bonial.fr/Enseignes/Carrefour",
+      "validFrom": "2026-10-27",
+      "validUntil": "2026-11-09",
+      "source": "https://www.bonial.fr/Enseignes/Carrefour",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
     },
     {
-        "id": "demo_lidl",
-        "storeId": "lidl",
-        "title": "Les Jours Heureux Lidl",
-        "validUntil": "Valable cette semaine",
-        "pdfUrl": "https://www.lidl.fr/c/catalogues-et-offres/s10022712",
-        "imageUrl": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=600",
-        "products": [
-            {
-                "id": "p_demo_2_1",
-                "name": "Chocolat Noir Bio Equitable",
-                "imageUrl": "https://images.unsplash.com/photo-1606312440539-c51c13d3c7a2?auto=format&fit=crop&q=80&w=400",
-                "originalPrice": 2.99,
-                "promoPrice": 1.49,
-                "description": "Tablette 100g premium",
-                "category": "Alimentation"
-            }
-        ]
+      "id": "243c33a47d875d4886ab314b1fadd9fb",
+      "storeId": "carrefour",
+      "title": "Prêt à jouer avec Nous?",
+      "url": "https://www.bonial.fr/Enseignes/Carrefour",
+      "validFrom": "2026-10-13",
+      "validUntil": "2026-12-07",
+      "source": "https://www.bonial.fr/Enseignes/Carrefour",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "518ff7d43a98b1f89f9d4af5aa497756",
+      "storeId": "carrefour",
+      "title": "GROS VOLUMES = PETITS PRIX",
+      "url": "https://www.bonial.fr/Enseignes/Carrefour",
+      "validFrom": "2026-10-22",
+      "validUntil": "2026-11-09",
+      "source": "https://www.bonial.fr/Enseignes/Carrefour",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "101fe0572131535c29861ef954b10c6b",
+      "storeId": "carrefour",
+      "title": "FAITES ENTRER LA NOUVEAUTÉ À LA MAISON !",
+      "url": "https://www.bonial.fr/Enseignes/Carrefour",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-11-02",
+      "source": "https://www.bonial.fr/Enseignes/Carrefour",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "7601ef9c7cb1c018410d942cd5379cac",
+      "storeId": "carrefour",
+      "title": "Tex",
+      "url": "https://www.bonial.fr/Enseignes/Carrefour",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-11-02",
+      "source": "https://www.bonial.fr/Enseignes/Carrefour",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "d5e517dfdfb98e77fd6084331d694f00",
+      "storeId": "carrefour",
+      "title": "ma Parapharmacie",
+      "url": "https://www.bonial.fr/Enseignes/Carrefour",
+      "validFrom": "2026-10-28",
+      "validUntil": "2026-11-30",
+      "source": "https://www.bonial.fr/Enseignes/Carrefour",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "b500c6f9381e648dc057777a1fab5ada",
+      "storeId": "carrefour",
+      "title": "HAHA HALLOWEEN",
+      "url": "https://www.bonial.fr/Enseignes/Carrefour",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-11-02",
+      "source": "https://www.bonial.fr/Enseignes/Carrefour",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "91bb7ae76f1e18648c4ab2b81735777e",
+      "storeId": "leclerc",
+      "title": "LE MEILLEUR SORTILÈGE POUR VOTRE PORTE-MONNAIE",
+      "url": "https://www.bonial.fr/Enseignes/E-Leclerc",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-10-31",
+      "source": "https://www.bonial.fr/Enseignes/E-Leclerc",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "ee45ee3386f46e6e1ff4f189f7bfd503",
+      "storeId": "leclerc",
+      "title": "NOS CONSEILS & OFFRES DE SAISON",
+      "url": "https://www.bonial.fr/Enseignes/E-Leclerc",
+      "validFrom": "2026-10-06",
+      "validUntil": "2026-10-31",
+      "source": "https://www.bonial.fr/Enseignes/E-Leclerc",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "026d3baa5f77fe0aed63112d6010bc68",
+      "storeId": "intermarche",
+      "title": "Intermarché",
+      "url": "https://www.bonial.fr/Enseignes/Intermarche",
+      "validFrom": "2026-10-27",
+      "validUntil": "2026-11-08",
+      "source": "https://www.bonial.fr/Enseignes/Intermarche",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "cf27fd7bdfa5db417e1e7f97a6833616",
+      "storeId": "intermarche",
+      "title": "-60% DE REMISE IMMÉDIATE SUR LE 2ÈME",
+      "url": "https://www.bonial.fr/Enseignes/Intermarche",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-11-01",
+      "source": "https://www.bonial.fr/Enseignes/Intermarche",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "f97f5a5125573efa629d911d41de288d",
+      "storeId": "intermarche",
+      "title": "DEMAIN, C'EST NOËL.",
+      "url": "https://www.bonial.fr/Enseignes/Intermarche",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-12-06",
+      "source": "https://www.bonial.fr/Enseignes/Intermarche",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "f5326047aacfacaabd2db91265fdae55",
+      "storeId": "auchan",
+      "title": "25 jours 1 hypers Du 27/10 au 01/11/2026",
+      "url": "https://www.auchan.fr/catalogue/4025-Ml0oKsnG?version=V1",
+      "validFrom": "2026-10-27",
+      "validUntil": "2026-11-01",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "9dd6453faf5d2b05d93f626b2317cad8",
+      "storeId": "auchan",
+      "title": "Parapharmacie, beauté Du 27/10 au 29/11/2026",
+      "url": "https://www.auchan.fr/catalogue/4226-jm6zk1yU?version=V1",
+      "validFrom": "2026-10-27",
+      "validUntil": "2026-11-29",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "d306177708a1fc4daf0bbe2950b7dfa9",
+      "storeId": "auchan",
+      "title": "Bijoux pour les fêtes Du 20/10 au 31/12/2026",
+      "url": "https://www.auchan.fr/catalogue/4239-DyYmU1BH?version=V1",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-12-31",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "823af7cfa1e443d3fb20a2de0968f03c",
+      "storeId": "auchan",
+      "title": "Inspiration déco Du 01/09 au 01/11/2026",
+      "url": "https://www.auchan.fr/catalogue/3221-wNTBCU8h?version=V1",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-11-01",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "3fbe447812b7255fb4289093fd0de8be",
+      "storeId": "auchan",
+      "title": "25 jours 1 supers Du 27/10 au 31/10/2026",
+      "url": "https://www.auchan.fr/catalogue/4026-rsFEWGn8?version=V1",
+      "validFrom": "2026-10-27",
+      "validUntil": "2026-10-31",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "478f05f8a080d7295b71a4bf297f6f7c",
+      "storeId": "auchan",
+      "title": "Les promos du moment Du 27/10 au 08/11/2026",
+      "url": "https://www.auchan.fr/catalogue/6099-WtbXSYPl?version=V1",
+      "validFrom": "2026-10-27",
+      "validUntil": "2026-11-08",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "b045fb4532662806736d356a0bace160",
+      "storeId": "auchan",
+      "title": "Foire aux agrumes Du 29/10 au 01/11/2026",
+      "url": "https://www.auchan.fr/catalogue/6054-q8CgpTw9?version=V1",
+      "validFrom": "2026-10-29",
+      "validUntil": "2026-11-01",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "91429871608427423c81ce388d3da99f",
+      "storeId": "auchan",
+      "title": "Bons plans du week end Du 29/10 au 01/11/2026",
+      "url": "https://www.auchan.fr/catalogue/4554-TdMKS2ij?version=V1",
+      "validFrom": "2026-10-29",
+      "validUntil": "2026-11-01",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "396de51e3ea038aa5efb214e7f8f37f7",
+      "storeId": "auchan",
+      "title": "Bons plans du week end Du 29/10 au 01/11/2026",
+      "url": "https://www.auchan.fr/catalogue/4555-IdWLltr0?version=V1",
+      "validFrom": "2026-10-29",
+      "validUntil": "2026-11-01",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "69b579d008ea4cc1ac0d45a6fa114c05",
+      "storeId": "auchan",
+      "title": "Jouets de Noël Du 16/10 au 06/12/2026",
+      "url": "https://www.auchan.fr/catalogue/4253-EfwQqVKz?version=V1",
+      "validFrom": "2026-10-16",
+      "validUntil": "2026-12-06",
+      "source": "https://www.auchan.fr/catalogue/",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "8f27b6512d363ad19dc66acfe2d57772",
+      "storeId": "auchan",
+      "title": "25 JOURS AUCHAN",
+      "url": "https://www.bonial.fr/Enseignes/Auchan",
+      "validFrom": "2026-10-27",
+      "validUntil": "2026-11-01",
+      "source": "https://www.bonial.fr/Enseignes/Auchan",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "c76ddd906f1b4e2556a53d4578cebbe9",
+      "storeId": "lidl",
+      "title": "Du 29/10 au 04/11 Les promos de la semaine",
+      "url": "https://www.lidl.fr/l/catalogue-de-la-semaine/du-29-10-au-04-11-les-promos-de-la-semaine/ar/0?_ab=1&lf=HHZ+-+F",
+      "validFrom": null,
+      "validUntil": null,
+      "source": "https://www.lidl.fr/c/catalogues-en-ligne/s10017753",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "86e22d17785f868a6f719ceb472ca10b",
+      "storeId": "lidl",
+      "title": "Du 26/10 au 29/10 Les Exclus Web de la semaine",
+      "url": "https://www.lidl.fr/l/catalogue-de-la-semaine/du-26-10-au-29-10-les-exclus-web-de-la-semaine/ar/0?lf=HHZ+-+NF",
+      "validFrom": null,
+      "validUntil": null,
+      "source": "https://www.lidl.fr/c/catalogues-en-ligne/s10017753",
+      "stale": false,
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "1dff6eb29b031f83b4c42a0e7da6943d",
+      "storeId": "lidl",
+      "title": "Faites briller les fêtes à prix minis !",
+      "url": "https://www.bonial.fr/Enseignes/Lidl",
+      "validFrom": "2026-10-26",
+      "validUntil": "2026-10-29",
+      "source": "https://www.bonial.fr/Enseignes/Lidl",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "a9fe987b702279eac07d5e4cac20d2b1",
+      "storeId": "superu",
+      "title": "SUPER U",
+      "url": "https://www.bonial.fr/Enseignes/Super-U",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-12-06",
+      "source": "https://www.bonial.fr/Enseignes/Super-U",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "97b8368e9e5faa665c9a4cd2652e35a2",
+      "storeId": "superu",
+      "title": "Halloween À PRIX BAS",
+      "url": "https://www.bonial.fr/Enseignes/Super-U",
+      "validFrom": "2026-10-20",
+      "validUntil": "2026-11-01",
+      "source": "https://www.bonial.fr/Enseignes/Super-U",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
+    },
+    {
+      "id": "d2397c7e9594d267fc79faaf4307201c",
+      "storeId": "superu",
+      "title": "SUPER U",
+      "url": "https://www.bonial.fr/Enseignes/Super-U",
+      "validFrom": "2026-10-27",
+      "validUntil": "2026-11-08",
+      "source": "https://www.bonial.fr/Enseignes/Super-U",
+      "stale": false,
+      "linkType": "sourcePage",
+      "fetchedAt": "2026-10-29T00:49:08.566Z"
     }
-]
+  ],
+  "stores": [
+    {
+      "storeId": "carrefour",
+      "name": "Carrefour",
+      "officialUrl": "https://www.carrefour.fr/catalogues",
+      "status": "ok",
+      "message": "Catalogues récupérés"
+    },
+    {
+      "storeId": "leclerc",
+      "name": "E.Leclerc",
+      "officialUrl": "https://www.e.leclerc/catalogue",
+      "status": "ok",
+      "message": "Catalogues récupérés"
+    },
+    {
+      "storeId": "intermarche",
+      "name": "Intermarché",
+      "officialUrl": "https://www.intermarche.com/catalogues",
+      "status": "ok",
+      "message": "Catalogues récupérés"
+    },
+    {
+      "storeId": "auchan",
+      "name": "Auchan",
+      "officialUrl": "https://www.auchan.fr/catalogue/",
+      "status": "ok",
+      "message": "Catalogues récupérés"
+    },
+    {
+      "storeId": "lidl",
+      "name": "Lidl",
+      "officialUrl": "https://www.lidl.fr/c/catalogues-en-ligne/s10017753",
+      "status": "ok",
+      "message": "Catalogues récupérés"
+    },
+    {
+      "storeId": "aldi",
+      "name": "ALDI",
+      "officialUrl": "https://www.aldi.fr/catalogue.html",
+      "status": "unavailable",
+      "message": "Aucun catalogue extrait"
+    },
+    {
+      "storeId": "superu",
+      "name": "Magasins U",
+      "officialUrl": "https://www.coursesu.com/catalogues",
+      "status": "ok",
+      "message": "Catalogues récupérés"
+    },
+    {
+      "storeId": "monoprix",
+      "name": "Monoprix",
+      "officialUrl": "https://www.monoprix.fr/",
+      "status": "unavailable",
+      "message": "Source indisponible (HTTP 403)"
+    },
+    {
+      "storeId": "franprix",
+      "name": "Franprix",
+      "officialUrl": "https://www.franprix.fr/",
+      "status": "unavailable",
+      "message": "Aucun catalogue extrait"
+    },
+    {
+      "storeId": "biocoop",
+      "name": "Biocoop",
+      "officialUrl": "https://www.biocoop.fr/",
+      "status": "unavailable",
+      "message": "Aucun catalogue extrait"
+    },
+    {
+      "storeId": "grandfrais",
+      "name": "Grand Frais",
+      "officialUrl": "https://www.grandfrais.com/",
+      "status": "unavailable",
+      "message": "Aucun catalogue extrait"
+    }
+  ]
+}
